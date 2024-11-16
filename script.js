@@ -32,7 +32,7 @@ function startStop() {
         timer = setInterval(() => {
             updateDisplay(Date.now() - startTime + elapsedTime);
         }, 10);
-        startStopBtn.textContent = 'Stop';
+        startStopBtn.textContent = 'Pause';
     }
     running = !running;
 }
